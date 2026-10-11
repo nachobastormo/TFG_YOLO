@@ -1,0 +1,11 @@
+
+# Entorno virtual
+.venv/
+
+# Salidas de YOLO y descargas
+runs/
+*.pt
+bus.jpg
+
+# Cachés
+__pycache__/
