@@ -1,11 +1,16 @@
-
 # Entorno virtual
 .venv/
 
-# Salidas de YOLO y descargas
+# Salidas de YOLO, pesos y temporales
 runs/
 *.pt
 bus.jpg
 
-# Cachés
+# Dataset procesado y cachés de Ultralytics
+dataset/
+*.cache
 __pycache__/
+
+# Editor / IDE
+.vscode/
+.idea/

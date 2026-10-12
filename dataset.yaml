@@ -1,0 +1,11 @@
+path: dataset # Ruta raíz del dataset
+train: images/train
+val: images/val
+
+# Definición de keypoints
+kpt_shape: [4, 3] # [número de keypoints, dimensiones (x, y, visibilidad)]
+flip_idx: [0, 1, 2, 3] # En peces laterales, no cruzamos keypoints simétricos al voltear
+
+# Clases
+names:
+  0: pez
